@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="CSS/elementCSS.css">
+    <link type="text/css" rel="stylesheet" href="CSS/headerCSS.css">
+    <link type="text/css" rel="stylesheet" href="CSS/loginPageCSS.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="icon">=</div>
+        <a href="postListPage.jsp">
+            <div class="title">Post HomePage
+                <span>Post</span>
+            </div>
+        </a>
+        <nav>
+            <div class="elementMenu">
+                <a href="infoReadPage.jsp">내 정보</a>
+                <div class="dropMenu">
+                    <div><a href="infoReadPage.jsp">내 정보 보기</a></div>
+                </div>
+            </div>
+            <div class="elementMenu">
+                <a href="postListPage.jsp">게시판</a>
+                <div class="dropMenu">
+                    <div><a href="postListPage.jsp">글 목록</a></div>
+                    <div><a href="postPage.jsp">글 쓰기</a></div>
+                </div>
+            </div>
+        </nav>
+        <div class="loginMenu">
+    
+        </div>
+    </header>
+
+    <main>
+        <div class="loginBox">
+            <div class="loginHeader">
+                <h2>로그인</h2>
+            </div>
+            <div class="loginMain">
+                <form action="JSP/loginApp.jsp">
+                    <input type='text' name="id_value" class="loginInputBox" placeholder="아이디">
+                    <input type='password' name="password_value" class="loginInputBox" placeholder="비밀번호">
+                    <input type="submit" class="loginButton" value="로그인">                    
+                </form>
+            </div>
+            <div class="loginFooter">
+                <div class="recoveryMenu">
+                    <a href="findUserPage.html">아이디</a>
+                    <a href="findPasswordPage.html">비밀번호</a>
+                    찾기
+                </div>
+                <div class="signUp">
+                    <a href="signupPage.html">회원가입</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div>문의</div>
+        <div>전화번호: 010-8549-0120</div>
+        <div>이메일:juneh2633@gmail.com</div>
+    </footer>
+    <script></script>
+</body>
+
+</html>

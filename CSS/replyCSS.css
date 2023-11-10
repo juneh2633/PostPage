@@ -1,0 +1,39 @@
+.reply_box {
+    display: flex;
+    padding: 5px;
+    width: 500px;
+    height: fit-content;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+.reply_userId {
+    display: inline;
+    width: 70px;
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+    border-right: solid 1px #eee;
+}
+.reply_main {
+    display: inline;
+    width: 300px;
+    height: fit-content;
+    padding: 5px;
+    font-size: 12px;
+    text-align: start;
+    border-right: solid 1px #eee;
+}
+
+.reply_date {
+    display: inline;
+    width: 40px;
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+}
+.replyUpdateButton{
+    width: 30px;
+    height: 20px;
+    font-size: 10px;
+    text-align:left;
+}

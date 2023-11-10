@@ -1,0 +1,43 @@
+.infoMainBox {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 550px;
+    background-color: white;
+    margin-top: 30px;
+}
+.infoHeader {
+    display: flex;
+    width: 80%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 1px #eee;
+    margin-left: 50px;
+}
+.infoMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    width: 80%;
+    height: 350px;
+    border-bottom: solid 1px #eee;
+    margin-left: 50px;
+}
+.infoBox {
+    width: 200px;
+    margin-top: 5px;
+}
+.deleteId {
+    display: inline;
+    width: 60px;
+    height: 20px;
+    margin-left: 400px;
+}
+.updateId {
+    display: inline;
+    width: 60px;
+    height: 20px;
+    margin-left: 400px;
+}

@@ -1,0 +1,75 @@
+.postingBox {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 700px;
+    align-items: center;
+    background-color: white;
+    margin-top: 30px;
+}
+.postingHeader {
+    display: flex;
+    width: 80%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 1px #eee;
+    
+}
+.postingMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    height: 500px;
+    border-bottom: solid 1px #eee;
+    /* margin-left: 50px; */
+}
+.postingInputBox {
+    display: block;
+    width: 80%;
+    height: 30px;
+    margin-top: 50px;
+}
+.postingButton {
+    width: 60px;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(189, 219, 221);
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.postingButton:active {
+    background-color: rgb(214, 224, 224);
+}
+.postingFooter {
+    width: 80%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 13px;
+    text-align: right;
+    font-weight: 300;
+}
+.titleText{
+    width: 90%;
+    height: 20px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-right: 25px;
+    
+}
+.postText{
+    width: 90%;
+    height: 400px;
+    margin-top: 10px;
+    margin-right: 25px;
+    resize: none;
+    
+}
